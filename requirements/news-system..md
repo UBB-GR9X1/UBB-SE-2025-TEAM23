@@ -2,7 +2,7 @@
 
 ## 1. Basic Elements of News Feed 
 ### 1.1 News Article Display 
-The system should provide financial news stories related to stocks, market condition updates, potential events. 
+The system should provide financial news stories related to stocks, market condition updates, potential events and user-submitted articles. 
 Each news story must carry a title, publication source, date and time of release, and a summary. 
 The system needs to create a visual distinction between read and unread articles. 
 The system must indicate when news articles are related to stocks in the user's watchlist, integrating features from the Stock List system. 
@@ -11,7 +11,6 @@ The system must indicate when news articles are related to stocks in the user's 
 The system shall organize news articles in reverse chronological order by default (newest first). 
 The system shall support categorization of news by topics (e.g., Stock News, Company News, Functionality News). 
 The system shall support filtering news by relevance to user's watchlist or portfolio (coordination with Stock List system). 
-
 
 ### 1.3 News Feed Refresh 
 It is set to update the news feed automatically after a set interval, as long as it is running. 
@@ -26,7 +25,18 @@ The system must display the whole article in proper format, including any images
 The system shall provide a way to allow users to return from the article view to the news feed with ease. 
 The system needs to provide access to relevant stocks mentioned in articles via an integration with the Stock System. 
 
-## 4.2 News History 
+## 3. User-Generated Content
+### 3.1 Article Submission
+The system shall allow users to submit articles. 
+The users will be presented with a submission form where they must provide a title, content, summary, and topic for submitting an article.
+The users shall have an option to preview the article before submitting.
+Upon submission, the system shall provide a confirmation message.
+
+### 3.2 Moderation and Admin Control
+The system shall provide access to the administrator to manage and delete user generated articles.
+The system shall display a prompt before deleting for confirmation.
+
+## 4. News History 
 The system should keep a history of previously accessed articles. 
 The system should allow users to delete their viewing history of the news. 
 The system must show an indicator if a user has ever visited an article. 
