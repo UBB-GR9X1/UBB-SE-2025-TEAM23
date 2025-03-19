@@ -7,6 +7,7 @@
   - price per stock, label. 
   - total value, label.
   - transaction date. label.
+  - transaction author. button displaying the username of the author, which on click will open the profile for the user.
 - Users shall be able to filter transactions based on: 
   - stock name, 
     - the system will display a text input and a button displaying "Filter", which if clicked will filter the list of transactions based on the value of the input, meaning that the name of the stocks in the list should contain the value found in the text input.
