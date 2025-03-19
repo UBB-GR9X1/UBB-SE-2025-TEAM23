@@ -1,4 +1,5 @@
-Profile - Bianca
+# Profile - Bianca
+- This application relies on a function of the TEAM 7UP to provide the account-related user data, mainly the CNP.
 
 guest = unregistered user
 
