@@ -25,3 +25,19 @@ The system is written to allow the user to choose and view  the full content tex
 The system must display the whole article in proper format, including any images or charts embedded in it. 
 The system shall provide a way to allow users to return from the article view to the news feed with ease. 
 The system needs to provide access to relevant stocks mentioned in articles via an integration with the Stock System. 
+
+## 4.2 News History 
+The system should keep a history of previously accessed articles. 
+The system should allow users to delete their viewing history of the news. 
+The system must show an indicator if a user has ever visited an article. 
+The system shall use the History System of the application, in order to record users' interactions with news stories. 
+
+## 5. Performance and Accessibility 
+
+### 5.1 Accessibility 
+The system must allow text scaling to improve readability. 
+The system shall adhere to the app's global accessibility standards. 
+
+### 5.2 Performance 
+The system shall load news article summaries quickly, with full article content loading on demand. 
+The system shall efficiently cache news to minimize redundant requests. 
