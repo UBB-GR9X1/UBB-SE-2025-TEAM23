@@ -19,5 +19,5 @@
     - "Price" (ascending or descending),
     - "Percentage Changed" (ascending or descending) 
   - A separate section of the page should display the registered user's favorite stocks, allowing them to mark or unmark stocks as favorites.
-    - The regostered users will be able to mark / unmark stocks as "Favorite"
+    - The registered users will be able to mark / unmark stocks as "Favorite"
     - The unregistered users will not be able to mark / unmark stocks as "Favorite" 
