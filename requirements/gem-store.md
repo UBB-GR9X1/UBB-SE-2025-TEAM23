@@ -1,4 +1,5 @@
 # Gem store - Ana 
+- This requirement interacts with TEAM 7UP to retrieve the account list and request subtraction or addition of funds to an account.
 
 -	The Gem Store shall allow registered users to purchase and sell in-app currency (Gems) for real money. These Gems can be used later to acquire stocks.
 -	Guest users shall only be allowed to view Gem Deals without the ability to buy or sell Gems.
