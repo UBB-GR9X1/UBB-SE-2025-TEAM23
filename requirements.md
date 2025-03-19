@@ -1,60 +1,33 @@
-# Stock System (Page) - Iosua
+# Profile - Bianca
+- This application relies on a function of the TEAM 7UP to provide the account-related user data, mainly the CNP.
 
- The system should provide users with information regarding a specified stock: 
-- Guests and Registered Users should be provided with:
-  - The ability to go back to the previous page:
-    - This will be achieved through a button with the text "Back", which if clicked redirects the viewer back to the previous page (the system saves a history of the previous pages).
-  - The symbol of the stock. A label.
-  - The name of the stock. A label.
-  - A button containing the username of the author of the stock, which if clicked redirects the viewer to the profile page of the author user.
-  - The stock price history up to 30 values (including the current price) in the form of a graph.
-    - If the stock does not have a history of prices, only the current price, the graph should be empty.
-  - The current price of the stock, followed by the text " Gems". A label.
-  - If the stock has a history of at least one value, display the change in the value of the stock (in percentage, whole numbers) [(current stock / last history stock value) * 100]. A label.
-- Registered Users should additionally be provided with:
-  - A button:
-    - If the user does not have the stock saved as a favorite:
-      - Displaying an image of an empty star with a yellow outline.
-      - when the button is clicked, save the stock as a favorite for the user and update the button.
-    - If the user does have the stock saved as a favorite:
-      - Displaying an image of a filled star colored yellow.
-      - when the button is clicked, save the stock as not a favorite for the user and update the button.
-  - A button displaying an image of a bell, which if clicked redirects the viewer to the alarm manager page for this stock.
-  - The number of gems the user has. A label.
-  - A number input to select the amount of stocks to buy or sell. The default value is 0.
-  - A button displaying the text "Buy!", which if clicked, validates if the user has the necessary Gems to buy (n * current stock price), where n is the value entered in the input above, should be equal or lower than user gems.
-    - If requirements are met, the system will subtract the discussed amount (n * current stock price) from the user's gems and add to their current stocks the stock bought by the amount selected. The system should add the current stock price to the stock price history and generate a new current stock price by the following formula Maximum between (current stock price - random number between 0 and 20) and 50. After the price has been changed, run the alerts system bounds check for this stock. The system will save a new transaction in the transacrion history composed of stock symbol, stock name, transaction type BUY, n, current stock price, n * current stock price, the date at which the transaction was executed, user.
-    - Otherwise, display a popup warning with the text "Invalid number input selected".
-  - A button displaying the text "Sell!", which if clicked, validates if the user has the necessary Stocks of this type (count of user stocks of this type > n).
-    - If requirements are met, the system will subtract the discussed amount and type (n * current stock price) from the user's stocks and add to the user's gems (n * current stock price). The system should add the current stock price to the stock price history and generate a new current stock price by the following formula Maximum between (current stock price + random number between 0 and 20) and 50. After the price has been changed, run the alerts system bounds check for this stock. The system will save a new transaction in the transacrion history composed of stock symbol, stock name, transaction type SELL, n, current stock price, n * current stock price, the date at which the transaction was executed, user.
-    - Otherwise, display a popup warning with the text "Invalid number input selected".
+guest = unregistered user
 
-# Alert Management System - Rafa
-All the following are only applicable to registered users.
-The system should allow users to set alerts on stock prices and notify users when a stock's price has gone outside a bound interval.
-- On startup, the system should provide the user with a list of triggered alerts. An alert is triggered when the price of the stock on which the alert is set goes outside a bound interval set by the user.
-- The system will display:
-  - A list of all triggered alerts, containing the following:
-    - The alert label.
-    - The stock name on which the alert is ser.
-    - The current price of the stock.
-    - A button with the text "Enter" that redirects to the stock page for the respective stock.
-  - A button displaying the text "Close" that redirects to the Main Page.
+When creating an account, it should be creating using the CNP(it is taken from the user's banking account and it is unique for each user), the user shall be provided by the system with a username which is initially a predefined name (random name from a list - the username is not necessarily unique for each user).
+---- For every NEW user the profile image will be empty, the description box will be empty and their list of stocks will be empty.
 
-The user can access the alert management system via the stock page system.
-The system should provide a user with the following for a specific stock:
-  - A list of all saved alerts composed of the following:
-    - The alert label.
-    - The stock name on which the alert is set.
-    - The lower bound limit on the price of the stock.
-    - The upper bound limit on the price of the stock.
-  - The system should allow users to remove alerts via a button next to each alert with the text "Remove".
-  - The system should allow users to create alerts in the following manner:
-    - The system should display the following for alert creation:
-      - The alert label. A text input is limited to 32 characters. 
-      - The lower bound limit on the price of the stock. A number input with default value 0.
-      - The upper bound limit on the price of the stock. A number input with default value 0.
-      - A button displaying the text "Create", which if clicked validates the input of both text inputs to be above 0, otherwise displays a popup alert with the text "Number input value must be above 0", and validates if the lower bound input value is lower than the upper bound input value otherwise displays a popup alert with the text "The lower bound value must be lower than the upper bound value". The stock is automatically assigned with the stock of the stock page that initialized the alert page. The system should save the new alert with the data above and update the alert list.
+The user's profile:
+The system shall allow the user to update their profile information as follows:
+- the username - it has to be between 8-24 characters long and it has to contain only letters and numbers
+- the profile picture - it has to be a PNG file
+- the description - a block of text that can have between 0 and 100 characters
+- the option to have a hidden profile - if this option is enabled the profile page (profile picture, description and the user's stocks) will be hidden from other users. Only the username will be accessible and visible
+- the option to become "admin" - once a user becomes admin he cannot undo it - In order to become admin the system will ask for a password (password: BombardinoCrocodilo). The system will compare the hash of this password with a saved hash and if they match the user should be promoted to an "admin".
+
+Admin:
+The admin will have the ability to remove articles from the News Page.
+
+The system will give the users the ability to see other users' profile (image, username, description and stocks). They can modify their account but not others'. They can only view other users' accounts without any modification - only if their profile is not set to "hidden".
+
+Stocks:
+Besides the other information about the user (username, image and description), the system will give the user the ability to see his stocks as a list (in no specific order). Each element (stock) will have the following information:
+- the symbol of the stock. label 
+- the name of the stock. label.
+- the quantity the user bought. label.
+- the current value of the stock. label.
+- a button with the text Enter" which if it is clicked, the system will let the user view the stock page for that specific stock
+
+There will also be a button with the text "Back" that if it is clicked, the system will let the user go back to the previous page.
 
 # Gem store - Ana 
 - This requirement interacts with TEAM 7UP to retrieve the account list and request subtraction or addition of funds to an account.
@@ -119,6 +92,64 @@ The system should provide a user with the following for a specific stock:
     - The registered users will be able to mark / unmark stocks as "Favorite"
     - The unregistered users will not be able to mark / unmark stocks as "Favorite" 
 
+# Stock System (Page) - Iosua
+
+ The system should provide users with information regarding a specified stock: 
+- Guests and Registered Users should be provided with:
+  - The ability to go back to the previous page:
+    - This will be achieved through a button with the text "Back", which if clicked redirects the viewer back to the previous page (the system saves a history of the previous pages).
+  - The symbol of the stock. A label.
+  - The name of the stock. A label.
+  - A button containing the username of the author of the stock, which if clicked redirects the viewer to the profile page of the author user.
+  - The stock price history up to 30 values (including the current price) in the form of a graph.
+    - If the stock does not have a history of prices, only the current price, the graph should be empty.
+  - The current price of the stock, followed by the text " Gems". A label.
+  - If the stock has a history of at least one value, display the change in the value of the stock (in percentage, whole numbers) [(current stock / last history stock value) * 100]. A label.
+- Registered Users should additionally be provided with:
+  - A button:
+    - If the user does not have the stock saved as a favorite:
+      - Displaying an image of an empty star with a yellow outline.
+      - when the button is clicked, save the stock as a favorite for the user and update the button.
+    - If the user does have the stock saved as a favorite:
+      - Displaying an image of a filled star colored yellow.
+      - when the button is clicked, save the stock as not a favorite for the user and update the button.
+  - A button displaying an image of a bell, which if clicked redirects the viewer to the alarm manager page for this stock.
+  - The number of gems the user has. A label.
+  - A number input to select the amount of stocks to buy or sell. The default value is 0.
+  - A button displaying the text "Buy!", which if clicked, validates if the user has the necessary Gems to buy (n * current stock price), where n is the value entered in the input above, should be equal or lower than user gems.
+    - If requirements are met, the system will subtract the discussed amount (n * current stock price) from the user's gems and add to their current stocks the stock bought by the amount selected. The system should add the current stock price to the stock price history and generate a new current stock price by the following formula Maximum between (current stock price - random number between 0 and 20) and 50. After the price has been changed, run the alerts system bounds check for this stock. The system will save a new transaction in the transacrion history composed of stock symbol, stock name, transaction type BUY, n, current stock price, n * current stock price, the date at which the transaction was executed, user.
+    - Otherwise, display a popup warning with the text "Invalid number input selected".
+  - A button displaying the text "Sell!", which if clicked, validates if the user has the necessary Stocks of this type (count of user stocks of this type > n).
+    - If requirements are met, the system will subtract the discussed amount and type (n * current stock price) from the user's stocks and add to the user's gems (n * current stock price). The system should add the current stock price to the stock price history and generate a new current stock price by the following formula Maximum between (current stock price + random number between 0 and 20) and 50. After the price has been changed, run the alerts system bounds check for this stock. The system will save a new transaction in the transacrion history composed of stock symbol, stock name, transaction type SELL, n, current stock price, n * current stock price, the date at which the transaction was executed, user.
+    - Otherwise, display a popup warning with the text "Invalid number input selected".
+
+# Alert Management System - Rafa
+All the following are only applicable to registered users.
+The system should allow users to set alerts on stock prices and notify users when a stock's price has gone outside a bound interval.
+- On startup, the system should provide the user with a list of triggered alerts. An alert is triggered when the price of the stock on which the alert is set goes outside a bound interval set by the user.
+- The system will display:
+  - A list of all triggered alerts, containing the following:
+    - The alert label.
+    - The stock name on which the alert is ser.
+    - The current price of the stock.
+    - A button with the text "Enter" that redirects to the stock page for the respective stock.
+  - A button displaying the text "Close" that redirects to the Main Page.
+
+The user can access the alert management system via the stock page system.
+The system should provide a user with the following for a specific stock:
+  - A list of all saved alerts composed of the following:
+    - The alert label.
+    - The stock name on which the alert is set.
+    - The lower bound limit on the price of the stock.
+    - The upper bound limit on the price of the stock.
+  - The system should allow users to remove alerts via a button next to each alert with the text "Remove".
+  - The system should allow users to create alerts in the following manner:
+    - The system should display the following for alert creation:
+      - The alert label. A text input is limited to 32 characters. 
+      - The lower bound limit on the price of the stock. A number input with default value 0.
+      - The upper bound limit on the price of the stock. A number input with default value 0.
+      - A button displaying the text "Create", which if clicked validates the input of both text inputs to be above 0, otherwise displays a popup alert with the text "Number input value must be above 0", and validates if the lower bound input value is lower than the upper bound input value otherwise displays a popup alert with the text "The lower bound value must be lower than the upper bound value". The stock is automatically assigned with the stock of the stock page that initialized the alert page. The system should save the new alert with the data above and update the alert list.
+
 # Create Stock - Ionut
 
 This page should allow users/moderator to define and create a new stock entry, including specifying its details such as name, category, price, and initial quantity. The UI should be user-friendly and responsive, following the application’s theme. The data should be validated before submission and stored in the database through a database wrapper.
@@ -178,37 +209,6 @@ The system shall adhere to the app's global accessibility standards.
 ### 5.2 Performance 
 The system shall load news article summaries quickly, with full article content loading on demand. 
 The system shall efficiently cache news to minimize redundant requests. 
-
-# Profile - Bianca
-- This application relies on a function of the TEAM 7UP to provide the account-related user data, mainly the CNP.
-
-guest = unregistered user
-
-When creating an account, it should be creating using the CNP(it is taken from the user's banking account and it is unique for each user), the user shall be provided by the system with a username which is initially a predefined name (random name from a list - the username is not necessarily unique for each user).
----- For every NEW user the profile image will be empty, the description box will be empty and their list of stocks will be empty.
-
-The user's profile:
-The system shall allow the user to update their profile information as follows:
-- the username - it has to be between 8-24 characters long and it has to contain only letters and numbers
-- the profile picture - it has to be a PNG file
-- the description - a block of text that can have between 0 and 100 characters
-- the option to have a hidden profile - if this option is enabled the profile page (profile picture, description and the user's stocks) will be hidden from other users. Only the username will be accessible and visible
-- the option to become "admin" - once a user becomes admin he cannot undo it - In order to become admin the system will ask for a password (password: BombardinoCrocodilo). The system will compare the hash of this password with a saved hash and if they match the user should be promoted to an "admin".
-
-Admin:
-The admin will have the ability to remove articles from the News Page.
-
-The system will give the users the ability to see other users' profile (image, username, description and stocks). They can modify their account but not others'. They can only view other users' accounts without any modification - only if their profile is not set to "hidden".
-
-Stocks:
-Besides the other information about the user (username, image and description), the system will give the user the ability to see his stocks as a list (in no specific order). Each element (stock) will have the following information:
-- the symbol of the stock. label 
-- the name of the stock. label.
-- the quantity the user bought. label.
-- the current value of the stock. label.
-- a button with the text Enter" which if it is clicked, the system will let the user view the stock page for that specific stock
-
-There will also be a button with the text "Back" that if it is clicked, the system will let the user go back to the previous page.
 
 # Transaction Log System - Denis
 - The application shall allow users to view their stock trading transaction history, displaying details for each transaction including:
