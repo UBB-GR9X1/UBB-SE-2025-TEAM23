@@ -1,4 +1,5 @@
 # Stock System (Page) - Iosua
+- This requirement utilizes a function from TEAM CtrlAltDefeat, mainly the broadcast of an event (buying or selling a stock) to the friend list.
 
  The system should provide users with information regarding a specified stock: 
 - Guests and Registered Users should be provided with:
@@ -24,7 +25,9 @@
   - A number input to select the amount of stocks to buy or sell. The default value is 0.
   - A button displaying the text "Buy!", which if clicked, validates if the user has the necessary Gems to buy (n * current stock price), where n is the value entered in the input above, should be equal or lower than user gems.
     - If requirements are met, the system will subtract the discussed amount (n * current stock price) from the user's gems and add to their current stocks the stock bought by the amount selected. The system should add the current stock price to the stock price history and generate a new current stock price by the following formula Maximum between (current stock price - random number between 0 and 20) and 50. After the price has been changed, run the alerts system bounds check for this stock. The system will save a new transaction in the transacrion history composed of stock symbol, stock name, transaction type BUY, n, current stock price, n * current stock price, the date at which the transaction was executed, user.
+      - Broadcast the action to the friend-list through TEAM CtrlAltDefeat
     - Otherwise, display a popup warning with the text "Invalid number input selected".
   - A button displaying the text "Sell!", which if clicked, validates if the user has the necessary Stocks of this type (count of user stocks of this type > n).
     - If requirements are met, the system will subtract the discussed amount and type (n * current stock price) from the user's stocks and add to the user's gems (n * current stock price). The system should add the current stock price to the stock price history and generate a new current stock price by the following formula Maximum between (current stock price + random number between 0 and 20) and 50. After the price has been changed, run the alerts system bounds check for this stock. The system will save a new transaction in the transacrion history composed of stock symbol, stock name, transaction type SELL, n, current stock price, n * current stock price, the date at which the transaction was executed, user.
+      - Broadcast the action to the friend-list through TEAM CtrlAltDefeat
     - Otherwise, display a popup warning with the text "Invalid number input selected".
