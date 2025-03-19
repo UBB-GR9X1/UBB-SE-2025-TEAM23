@@ -56,6 +56,45 @@ The system should provide a user with the following for a specific stock:
       - The upper bound limit on the price of the stock. A number input with default value 0.
       - A button displaying the text "Create", which if clicked validates the input of both text inputs to be above 0, otherwise displays a popup alert with the text "Number input value must be above 0", and validates if the lower bound input value is lower than the upper bound input value otherwise displays a popup alert with the text "The lower bound value must be lower than the upper bound value". The stock is automatically assigned with the stock of the stock page that initialized the alert page. The system should save the new alert with the data above and update the alert list.
 
+# Gem store - Ana 
+- This requirement interacts with TEAM 7UP to retrieve the account list and request subtraction or addition of funds to an account.
+
+-	The Gem Store shall allow registered users to purchase and sell in-app currency (Gems) for real money. These Gems can be used later to acquire stocks.
+-	Guest users shall only be allowed to view Gem Deals without the ability to buy or sell Gems.
+
+**Buying gems:**
+- Users shall scroll through a list of Gem Deals, which can be permanent or special (available for a limited time).
+- Each Gem Deal shall display:
+  - A title.
+  - The number of Gems included.
+  - The price in real money.
+- After selecting a deal, the user shall be prompted to choose a bank account from which the money will be deducted.
+- A "BUY" button shall finalize the transaction once a bank account is selected, the user’s account being updated with the purchased Gems.
+
+**Selling gems:**
+- The system shall display the exchange rate: 100 Gems = 1 Euro.
+- Users shall input the number of Gems they wish to sell.
+- The system shall validate that:
+  - The input is greater than 0.
+  - The user has sufficient Gems to sell.
+- If the input is invalid, the system shall display a specific error message.
+- If the input is valid, the user shall be prompted to choose a bank account where the real money will be deposited.
+- A "SELL" button shall finalize the transaction once a bank account is selected.
+
+**Gem Deals:**
+- The system shall display a list of Gem Deals in a scrollable container.
+- Special Gem Deals shall be highlighted with a label "Special offer!" and shall expire after a set period.
+- Expired special deals shall be replaced with new ones after a cooldown period.
+
+**Bank Account Selection:**
+- When buying or selling Gems, the user shall be prompted to select a bank account from a modal window.
+- The modal shall list the user’s bank accounts and require a selection to proceed.
+
+**Back Button:**
+- A back button shall be shown in the top-left corner of the Gem Store page.
+- The button shall be an arrow pointing to the left.
+- Pressing the button shall navigate the user back to the home page.
+
 # Home Page - Riky
 - The homepage should also enable users to navigate to the Profile, Gem Store, Transaction Log, Create Stock, News.
 - The homepage shall display the following:
@@ -92,18 +131,6 @@ Stock Creation Form:
 - Submit & Reset Buttons
 - Real-time Validation (e.g., prevent negative quantities, missing fields)
 - Success/Error Notifications after form submission
-
-# Gem store - Ana
-
-The Gem Store shall allow registered users to purchase and sell in-app currency (Gems) for real money. These Gems can be used later to acquire stocks.  
-
-Buying gems: 
-
-The user will scroll through a list of Gem Deals that could be permanent or special (available for a set period of time). The Gem Deals consist of a title, the number of gems the user shall receive and the price in real money.  After choosing an offer, the user shall be asked to choose a bank account the money will be subtracted from. After selecting the desired bank account, the user will be able to press “BUY”, which will finalize the transaction. In Guest mode, the user shall only be allowed to see the Gem Deals. 
-
-Selling gems:  
-
-The exchange rate will be displayed (100 Gems = 1 Euro) and the user shall be allowed to input the number of gems they want to sell in exchange for real money. The user will then be able to press “SELL”, and the system shall validate that the input is greater than 0 and that the user has sufficient funds. If the input is invalid, a specific error message indicating the problem will be displayed. If there are no problems, the user shall be asked to choose a bank account the money will be deposited into. After selecting the desired bank account, the user will be able to press “SELL” again, which will finalize the transaction. In Guest mode, the user shall not be allowed to sell Gems. 
 
 # Stock News - Norbert
 
