@@ -1,15 +1,28 @@
 # Create Stock - Ionut
 
-This page should allow users/moderator to define and create a new stock entry, including specifying its details such as name, category, price, and initial quantity. The UI should be user-friendly and responsive, following the application’s theme. The data should be validated before submission and stored in the database through a database wrapper.
-Ensure that guest users cannot create a new stock entry. If a guest user accesses the Stock Creation page, display a message informing them that stock creation is restricted to registered users. The UI should prevent any form submissions from guests and hide or disable input fields accordingly
-Stock Creation Form:
-- Input fields for: 
-  - Stock Name (max 20 characters)
-  - Logo Upload (max 2MB, image file=
-  - Category (Dropdown or Text Input)
-  - Initial Quantity (float, between 1 - 1,000,000)
-  - Price per Unit (float, between 1 - 100)
-  - Description (Optional, max 200 characters)
-- Submit & Reset Buttons
-- Real-time Validation (e.g., prevent negative quantities, missing fields)
-- Success/Error Notifications after form submission
+This page allows registered users and moderators to define and create a new stock entry by specifying details such as name, category, price, and initial quantity.
+ 
+ ## Requirements:
+ User Access Control:
+ 
+   - Guest users cannot create stock entries.
+   - If a guest accesses this page, display a message restricting stock creation to registered users.
+   - Hide or disable form inputs for guests to prevent submissions.
+ ## Stock Creation Form:
+ 
+ ### Fields:
+  - Stock Name (Max 20 characters, only letters & spaces)
+  - Category (Dropdown or text input)
+  - Initial Quantity (Float, 1 - 1,000,000)
+  - Price per Unit (Float, 1 - 100)
+  - Description (Optional, Max 200 characters)
+ ### Buttons:
+   - Submit: Validates and stores data in the database via a wrapper.
+   - Reset: Clears all input fields.
+ ### Validations:
+   - Prevent invalid input (negative values, missing fields, or exceeding limits).
+   - Real-time validation with error messages.
+ ### Feedback:
+   - Display success/error notifications upon submission.
+ ### UI Considerations:
+   - Ensure a user-friendly and responsive design following the application’s theme.
