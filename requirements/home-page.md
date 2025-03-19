@@ -1,0 +1,20 @@
+# Home Page - Riky
+- The homepage should also enable users to navigate to the Profile, Gem Store, Transaction Log, Create Stock, News.
+- The homepage shall display the following:
+  - A button displaying the text "Profile", which if clicked redirects to the profile page.
+  - A button displaying the text "Gem Store", which if clicked redirects to the gem store page. 
+  - A button displaying the text "Transaction Log", which if clicked redirects to the transaction log page.
+  - A button displaying the text "Create Stock", which if clicked redirects to the create stock page. This button is only displayed for registered users.
+  - A button displaying the text "News", which if clicked redirects to the news page.
+- The homepage of the Stocks App should allow registered users to view stock details, by displaying a comprehensive list of all available stocks, each showing:
+  - a stock symbol (a maximum of four uppercase letters), 
+  - the full stock name, 
+  - the latest available price, 
+  - and the percentage change relative to the last recorded value in the history if the history contains at least one recorded value. 
+  - Users should be able to search for stocks by: 
+    - symbol, a text input.
+    - name, a text input.
+  - filter results accordingly, and sort them by: (a drop-down menu) 
+    - name (A-Z or Z-A), 
+    - stock price (ascending or descending). 
+  - A separate section should display the user's favorite stocks, allowing users to mark or unmark stocks as favorites. 
