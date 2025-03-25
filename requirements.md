@@ -211,13 +211,12 @@ This page allows registered users and moderators to define and create a new stoc
  
  ### Fields:
   - Stock Name (Max 20 characters, only letters & spaces)
-  - Category (Dropdown or text input)
-  - Initial Quantity (Float, 1 - 1,000,000)
-  - Price per Unit (Float, 1 - 100)
-  - Description (Optional, Max 200 characters)
+  - Stock Quantity (Float, 1 - 1,000,000)
+  - Stock Price (Float, 1 - 100)
+  - Stock Symbol (Max 5 characters)
+  - Author CNP (Max 13 characters, only numbers)
  ### Buttons:
-   - Submit: Validates and stores data in the database via a wrapper.
-   - Reset: Clears all input fields.
+   - Create Stock: Validates and stores data in the database via a wrapper.
  ### Validations:
    - Prevent invalid input (negative values, missing fields, or exceeding limits).
    - Real-time validation with error messages.
