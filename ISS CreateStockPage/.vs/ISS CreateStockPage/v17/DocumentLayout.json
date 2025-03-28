@@ -1,0 +1,153 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Johnnyboy\\Desktop\\Faculty\\ANU 2\\sem2\\ISS\\ISS CreateStockPage\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2080A307-AD3A-4DDA-8EDB-A7B00187631E}|ISS CreateStockPage\\ISS CreateStockPage.csproj|c:\\users\\johnnyboy\\desktop\\faculty\\anu 2\\sem2\\iss\\iss createstockpage\\iss createstockpage\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2080A307-AD3A-4DDA-8EDB-A7B00187631E}|ISS CreateStockPage\\ISS CreateStockPage.csproj|solutionrelative:iss createstockpage\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2080A307-AD3A-4DDA-8EDB-A7B00187631E}|ISS CreateStockPage\\ISS CreateStockPage.csproj|c:\\users\\johnnyboy\\desktop\\faculty\\anu 2\\sem2\\iss\\iss createstockpage\\iss createstockpage\\viewmodels\\createstockviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2080A307-AD3A-4DDA-8EDB-A7B00187631E}|ISS CreateStockPage\\ISS CreateStockPage.csproj|solutionrelative:iss createstockpage\\viewmodels\\createstockviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2080A307-AD3A-4DDA-8EDB-A7B00187631E}|ISS CreateStockPage\\ISS CreateStockPage.csproj|c:\\users\\johnnyboy\\desktop\\faculty\\anu 2\\sem2\\iss\\iss createstockpage\\iss createstockpage\\models\\stockmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2080A307-AD3A-4DDA-8EDB-A7B00187631E}|ISS CreateStockPage\\ISS CreateStockPage.csproj|solutionrelative:iss createstockpage\\models\\stockmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2080A307-AD3A-4DDA-8EDB-A7B00187631E}|ISS CreateStockPage\\ISS CreateStockPage.csproj|c:\\users\\johnnyboy\\desktop\\faculty\\anu 2\\sem2\\iss\\iss createstockpage\\iss createstockpage\\models\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2080A307-AD3A-4DDA-8EDB-A7B00187631E}|ISS CreateStockPage\\ISS CreateStockPage.csproj|solutionrelative:iss createstockpage\\models\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2080A307-AD3A-4DDA-8EDB-A7B00187631E}|ISS CreateStockPage\\ISS CreateStockPage.csproj|c:\\users\\johnnyboy\\desktop\\faculty\\anu 2\\sem2\\iss\\iss createstockpage\\iss createstockpage\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2080A307-AD3A-4DDA-8EDB-A7B00187631E}|ISS CreateStockPage\\ISS CreateStockPage.csproj|solutionrelative:iss createstockpage\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2080A307-AD3A-4DDA-8EDB-A7B00187631E}|ISS CreateStockPage\\ISS CreateStockPage.csproj|c:\\users\\johnnyboy\\desktop\\faculty\\anu 2\\sem2\\iss\\iss createstockpage\\iss createstockpage\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2080A307-AD3A-4DDA-8EDB-A7B00187631E}|ISS CreateStockPage\\ISS CreateStockPage.csproj|solutionrelative:iss createstockpage\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Johnnyboy\\Desktop\\Faculty\\ANU 2\\sem2\\ISS\\ISS CreateStockPage\\ISS CreateStockPage\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Views\\MainWindow.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ISS CreateStockPage\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Views\\MainWindow.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2080A307-AD3A-4DDA-8EDB-A7B00187631E}|ISS CreateStockPage\\ISS CreateStockPage.csproj|c:\\users\\johnnyboy\\desktop\\faculty\\anu 2\\sem2\\iss\\iss createstockpage\\iss createstockpage\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2080A307-AD3A-4DDA-8EDB-A7B00187631E}|ISS CreateStockPage\\ISS CreateStockPage.csproj|solutionrelative:iss createstockpage\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d3750d8a-574b-4fb3-b7e2-aa8af40e8231}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StockManager.cs",
+              "DocumentMoniker": "C:\\Users\\Johnnyboy\\Desktop\\Faculty\\ANU 2\\sem2\\ISS\\ISS CreateStockPage\\ISS CreateStockPage\\Models\\StockManager.cs",
+              "RelativeDocumentMoniker": "ISS CreateStockPage\\Models\\StockManager.cs",
+              "ToolTip": "C:\\Users\\Johnnyboy\\Desktop\\Faculty\\ANU 2\\sem2\\ISS\\ISS CreateStockPage\\ISS CreateStockPage\\Models\\StockManager.cs",
+              "RelativeToolTip": "ISS CreateStockPage\\Models\\StockManager.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwAwAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T13:00:17.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Stock.cs",
+              "DocumentMoniker": "C:\\Users\\Johnnyboy\\Desktop\\Faculty\\ANU 2\\sem2\\ISS\\ISS CreateStockPage\\ISS CreateStockPage\\Models\\Stock.cs",
+              "RelativeDocumentMoniker": "ISS CreateStockPage\\Models\\Stock.cs",
+              "ToolTip": "C:\\Users\\Johnnyboy\\Desktop\\Faculty\\ANU 2\\sem2\\ISS\\ISS CreateStockPage\\ISS CreateStockPage\\Models\\Stock.cs",
+              "RelativeToolTip": "ISS CreateStockPage\\Models\\Stock.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T12:01:36.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Johnnyboy\\Desktop\\Faculty\\ANU 2\\sem2\\ISS\\ISS CreateStockPage\\ISS CreateStockPage\\Views\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ISS CreateStockPage\\Views\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Johnnyboy\\Desktop\\Faculty\\ANU 2\\sem2\\ISS\\ISS CreateStockPage\\ISS CreateStockPage\\Views\\MainWindow.xaml",
+              "RelativeToolTip": "ISS CreateStockPage\\Views\\MainWindow.xaml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAIwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-26T12:02:44.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Johnnyboy\\Desktop\\Faculty\\ANU 2\\sem2\\ISS\\ISS CreateStockPage\\ISS CreateStockPage\\Views\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ISS CreateStockPage\\Views\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Johnnyboy\\Desktop\\Faculty\\ANU 2\\sem2\\ISS\\ISS CreateStockPage\\ISS CreateStockPage\\Views\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ISS CreateStockPage\\Views\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAIwD4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T12:03:28.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Johnnyboy\\Desktop\\Faculty\\ANU 2\\sem2\\ISS\\ISS CreateStockPage\\ISS CreateStockPage\\App.xaml",
+              "RelativeDocumentMoniker": "ISS CreateStockPage\\App.xaml",
+              "ToolTip": "C:\\Users\\Johnnyboy\\Desktop\\Faculty\\ANU 2\\sem2\\ISS\\ISS CreateStockPage\\ISS CreateStockPage\\App.xaml",
+              "RelativeToolTip": "ISS CreateStockPage\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-26T12:02:37.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateStockViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Johnnyboy\\Desktop\\Faculty\\ANU 2\\sem2\\ISS\\ISS CreateStockPage\\ISS CreateStockPage\\ViewModels\\CreateStockViewModel.cs",
+              "RelativeDocumentMoniker": "ISS CreateStockPage\\ViewModels\\CreateStockViewModel.cs",
+              "ToolTip": "C:\\Users\\Johnnyboy\\Desktop\\Faculty\\ANU 2\\sem2\\ISS\\ISS CreateStockPage\\ISS CreateStockPage\\ViewModels\\CreateStockViewModel.cs",
+              "RelativeToolTip": "ISS CreateStockPage\\ViewModels\\CreateStockViewModel.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAcwCIAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T13:09:08.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.g.cs",
+              "DocumentMoniker": "C:\\Users\\Johnnyboy\\Desktop\\Faculty\\ANU 2\\sem2\\ISS\\ISS CreateStockPage\\ISS CreateStockPage\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Views\\MainWindow.g.cs",
+              "RelativeDocumentMoniker": "ISS CreateStockPage\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Views\\MainWindow.g.cs",
+              "ToolTip": "C:\\Users\\Johnnyboy\\Desktop\\Faculty\\ANU 2\\sem2\\ISS\\ISS CreateStockPage\\ISS CreateStockPage\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Views\\MainWindow.g.cs",
+              "RelativeToolTip": "ISS CreateStockPage\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Views\\MainWindow.g.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T12:52:42.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Johnnyboy\\Desktop\\Faculty\\ANU 2\\sem2\\ISS\\ISS CreateStockPage\\ISS CreateStockPage\\App.xaml.cs",
+              "RelativeDocumentMoniker": "ISS CreateStockPage\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\Johnnyboy\\Desktop\\Faculty\\ANU 2\\sem2\\ISS\\ISS CreateStockPage\\ISS CreateStockPage\\App.xaml.cs",
+              "RelativeToolTip": "ISS CreateStockPage\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T12:02:43.139Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
