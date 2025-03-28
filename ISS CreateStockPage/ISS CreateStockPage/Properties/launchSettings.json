@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ISS CreateStockPage (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "ISS CreateStockPage (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
