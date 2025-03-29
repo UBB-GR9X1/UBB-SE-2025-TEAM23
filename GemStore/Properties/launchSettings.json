@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "GemStore (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "GemStore (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

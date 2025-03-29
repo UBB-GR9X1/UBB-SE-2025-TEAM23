@@ -1,0 +1,23 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build results
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+
+# Windows app stuff
+*.appx
+*.appxupload
+*.appxbundle
+*.msix
+*.msixupload
+*.msixbundle
+
+# Others
+*.cache
+*.log
