@@ -1442,23 +1442,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\LENOVO\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\bolog\\.nuget\\packages\\": {},
+    "D:\\Visual Studio\\Tools\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LENOVO\\Documents\\GitHub\\UBB-SE-2025-TEAM23\\StocksApp\\StocksApp\\StocksApp.csproj",
+      "projectUniqueName": "C:\\Users\\bolog\\Documents\\Facultate\\UBB-SE-2025-TEAM23\\StocksApp\\StocksApp\\StocksApp.csproj",
       "projectName": "StocksApp",
-      "projectPath": "C:\\Users\\LENOVO\\Documents\\GitHub\\UBB-SE-2025-TEAM23\\StocksApp\\StocksApp\\StocksApp.csproj",
-      "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LENOVO\\Documents\\GitHub\\UBB-SE-2025-TEAM23\\StocksApp\\StocksApp\\obj\\",
+      "projectPath": "C:\\Users\\bolog\\Documents\\Facultate\\UBB-SE-2025-TEAM23\\StocksApp\\StocksApp\\StocksApp.csproj",
+      "packagesPath": "C:\\Users\\bolog\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\bolog\\Documents\\Facultate\\UBB-SE-2025-TEAM23\\StocksApp\\StocksApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "D:\\Visual Studio\\Tools\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\bolog\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
