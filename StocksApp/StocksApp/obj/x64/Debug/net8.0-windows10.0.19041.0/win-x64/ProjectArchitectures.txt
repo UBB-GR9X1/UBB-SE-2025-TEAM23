@@ -1,0 +1,1 @@
+C:\Users\Rafael\Desktop\UBB-Work\SemesterVI\ISS\UBB-SE-2025-TEAM23\StocksApp\StocksApp\StocksApp.csproj;x64
