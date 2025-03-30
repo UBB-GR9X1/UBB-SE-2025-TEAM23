@@ -1,8 +1,11 @@
+// MainWindow.xaml.cs
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using System.Linq;
 using System.Collections.ObjectModel;
 using System;
+using StocksApp.Data;
+using StocksApp.Models;  // Added this using statement for Models
 
 namespace StocksApp
 {
@@ -195,5 +198,52 @@ namespace StocksApp
         {
             Application.Current.Exit();
         }
+        private async void LowerBound_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            TextBox textBox = sender as TextBox;
+            if (textBox != null)
+            {
+                if (!int.TryParse(textBox.Text, out int lowerBound))
+                {
+                    var dialog = new ContentDialog
+                    {
+                        Title = "Input Error",
+                        Content = "Please enter a valid number for Lower Bound.",
+                        CloseButtonText = "OK",
+                        XamlRoot = this.Content.XamlRoot // Required in WinUI 3
+                    };
+
+                    // Ensure async operations are awaited properly
+                    await dialog.ShowAsync();
+                    textBox.Text = string.Empty; // Clear invalid input
+                }
+            }
+        }
+
+        private async void UpperBound_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            TextBox textBox = sender as TextBox;
+            if (textBox != null)
+            {
+                if (!int.TryParse(textBox.Text, out int upperBound))
+                {
+                    var dialog = new ContentDialog
+                    {
+                        Title = "Input Error",
+                        Content = "Please enter a valid number for Upper Bound.",
+                        CloseButtonText = "OK",
+                        XamlRoot = this.Content.XamlRoot // Required in WinUI 3
+                    };
+
+                    // Use await properly to show the dialog asynchronously
+                    await dialog.ShowAsync();
+                    textBox.Text = string.Empty; // Clear invalid input
+                }
+            }
+        }
+
+
+
+
     }
 }

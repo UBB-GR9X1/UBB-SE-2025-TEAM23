@@ -16,13 +16,6 @@
             </LinearGradientBrush>
         </Grid.Background>
 
-        <!-- OR Use an Image as Background (uncomment the block below if preferred) -->
-        <!--
-        <Grid.Background>
-            <ImageBrush ImageSource="Assets/BackgroundImage.jpg"/>
-        </Grid.Background>
-        -->
-
         <!-- Grid layout with Rows and Columns -->
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
@@ -54,12 +47,12 @@
                         <!-- Editable Name Column -->
                         <TextBox Text="{Binding Name, Mode=TwoWay}" Width="150" Margin="5"/>
 
-                        <!-- Editable Lower Bound Column with Validation (Moved Up) -->
+                        <!-- Editable Lower Bound Column with Validation -->
                         <TextBox Text="{Binding LowerBound, Mode=TwoWay}" 
                                  Width="100" Margin="5" 
                                  TextChanged="LowerBound_TextChanged"/>
 
-                        <!-- Editable Upper Bound Column with Validation (Moved Down) -->
+                        <!-- Editable Upper Bound Column with Validation -->
                         <TextBox Text="{Binding UpperBound, Mode=TwoWay}" 
                                  Width="100" Margin="5" 
                                  TextChanged="UpperBound_TextChanged"/>
@@ -71,12 +64,12 @@
             </ListView.ItemTemplate>
         </ListView>
 
-        <!-- Buttons for Create, Delete, Save, and Exit -->
-        <StackPanel Grid.Row="2" Grid.Column="1" Orientation="Vertical" Margin="10">
-            <Button x:Name="PlusButton" Content="+" Click="PlusButton_Click" Margin="5"/>
-            <Button x:Name="MinusButton" Content="-" Click="MinusButton_Click" Margin="5"/>
-            <Button x:Name="SaveButton" Content="Save" Click="SaveButton_Click" Margin="5"/>
-            <Button x:Name="ExitButton" Content="Back" Click="ExitButton_Click" Margin="5"/>
+        <!-- Button Controls for Plus/Minus/Save -->
+        <StackPanel Grid.Row="0" Grid.Column="1" VerticalAlignment="Top">
+            <Button Content="Plus" Click="PlusButton_Click" Width="100" Margin="5"/>
+            <Button Content="Minus" Click="MinusButton_Click" Width="100" Margin="5"/>
+            <Button Content="Save" Click="SaveButton_Click" Width="100" Margin="5"/>
+            <Button Content="Exit" Click="ExitButton_Click" Width="100" Margin="5"/>
         </StackPanel>
     </Grid>
 </Window>
