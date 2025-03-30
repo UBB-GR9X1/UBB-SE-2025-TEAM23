@@ -1,0 +1,33 @@
+<Application
+    x:Class="StockNewsPage.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:StockNewsPage"
+    xmlns:converters="using:StockNewsPage.Converters">
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <XamlControlsResources xmlns="using:Microsoft.UI.Xaml.Controls" />
+                <!-- Other merged dictionaries here -->
+            </ResourceDictionary.MergedDictionaries>
+
+            <!-- Application-wide resources -->
+            <Style x:Key="DefaultListViewItemStyle" TargetType="ListViewItem">
+                <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                <Setter Property="Padding" Value="0" />
+                <Setter Property="Margin" Value="0,0,0,12" />
+            </Style>
+
+            <!-- Converters -->
+            <converters:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter" />
+            <converters:ReadStatusToFontWeightConverter x:Key="ReadStatusToFontWeightConverter" />
+            <converters:DateTimeToStringConverter x:Key="DateTimeToStringConverter" />
+            <converters:BoolToStringConverter x:Key="BoolToStringConverter" />
+            <converters:StringToVisibilityConverter x:Key="StringToVisibilityConverter" />
+            <converters:BoolToInverseVisibilityConverter x:Key="BoolToInverseVisibilityConverter" />
+            <converters:StatusToApproveVisibilityConverter x:Key="StatusToApproveVisibilityConverter" />
+            <converters:StatusToRejectVisibilityConverter x:Key="StatusToRejectVisibilityConverter" />
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
