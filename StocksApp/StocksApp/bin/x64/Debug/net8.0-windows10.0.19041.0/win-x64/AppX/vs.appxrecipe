@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Users\Rafael\Desktop\UBB-Work\SemesterVI\ISS\UBB-SE-2025-TEAM23\StocksApp\StocksApp\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-03-30T16:26:09.467</Modified>
+      <Modified>2025-03-30T20:24:10.572</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rafael\Desktop\UBB-Work\SemesterVI\ISS\UBB-SE-2025-TEAM23\StocksApp\StocksApp\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\StocksApp.dll">
       <PackagePath>StocksApp.dll</PackagePath>
-      <Modified>2025-03-30T16:26:08.961</Modified>
+      <Modified>2025-03-30T20:24:09.874</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rafael\Desktop\UBB-Work\SemesterVI\ISS\UBB-SE-2025-TEAM23\StocksApp\StocksApp\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\apphost.exe">
       <PackagePath>StocksApp.exe</PackagePath>
-      <Modified>2025-03-30T16:26:08.968</Modified>
+      <Modified>2025-03-30T20:24:09.953</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rafael\.nuget\packages\microsoft.netcore.app.runtime.win-x64\8.0.14\runtimes\win-x64\lib\net8.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
