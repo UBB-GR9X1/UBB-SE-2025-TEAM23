@@ -211,12 +211,11 @@ This page allows registered users and moderators to define and create a new stoc
  
  ### Fields:
   - Stock Name (Max 20 characters, only letters & spaces)
-  - Stock Quantity (Float, 1 - 1,000,000)
-  - Stock Price (Float, 1 - 100)
   - Stock Symbol (Max 5 characters)
   - Author CNP (Max 13 characters, only numbers)
  ### Buttons:
    - Create Stock: Validates and stores data in the database via a wrapper.
+   - Back : Allow the user to go back to the home page.
  ### Validations:
    - Prevent invalid input (negative values, missing fields, or exceeding limits).
    - Real-time validation with error messages.
