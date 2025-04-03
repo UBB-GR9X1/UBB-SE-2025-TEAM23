@@ -1,53 +1,43 @@
 # Stock News - Norbert
 
-## 1. Basic Elements of News Feed 
-### 1.1 News Article Display 
-The system should provide financial news stories related to stocks, market condition updates, potential events and user-submitted articles. 
-Each news story must carry a title, publication source, date and time of release, and a summary. 
-The system needs to create a visual distinction between read and unread articles. 
-The system must indicate when news articles are related to stocks in the user's watchlist, integrating features from the Stock List system. 
+## 1. Basic Elements of News Feed
+### 1.1 News Article Display
+The system should provide financial news stories related to stocks, market condition updates, potential events and user-submitted articles. Each news story must carry a title, publication source, date and time of release, and a summary. The system needs to create a visual distinction between read and unread articles.
 
-### 1.2 News Feed Organization 
-The system shall organize news articles in reverse chronological order by default (newest first). 
-The system shall support categorization of news by topics (e.g., Stock News, Company News, Functionality News). 
-The system shall support filtering news by relevance to user's watchlist or portfolio (coordination with Stock List system). 
+### 1.2 News Feed Organization
+The system shall organize news articles in reverse chronological order by default (newest first). The system shall support categorization of news by topics (e.g., Stock News, Company News, Market Analysis, Economic News, Functionality News). The system shall support text-based search functionality for finding specific news content.
 
-### 1.3 News Feed Refresh 
-It is set to update the news feed automatically after a set interval, as long as it is running. 
-The system needs to provide a visual indication when loading new articles is being done. 
-The system must allow the user to update the news feed manually. 
- 
+### 1.3 News Feed Refresh
+The system is set to update the news feed automatically after a set interval, as long as it is running. The system needs to provide a visual indication when loading new articles is being done. The system must allow the user to update the news feed manually.
 
-## 2. Reading News Stories 
-### 2.1 Article View 
-The system is written to allow the user to choose and view  the full content text of any news item. 
-The system must display the whole article in proper format, including any images or charts embedded in it. 
-The system shall provide a way to allow users to return from the article view to the news feed with ease. 
-The system needs to provide access to relevant stocks mentioned in articles via an integration with the Stock System. 
+## 2. Reading News Stories
+### 2.1 Article View
+The system is written to allow the user to choose and view the full content text of any news item. The system must display the whole article in proper format. The system shall provide a way to allow users to return from the article view to the news feed with ease. The system needs to provide access to relevant stocks mentioned in articles via an integration with the Stock System.
 
 ## 3. User-Generated Content
 ### 3.1 Article Submission
-The system shall allow users to submit articles. 
-The users will be presented with a submission form where they must provide a title, content, summary, and topic for submitting an article.
-The users shall have an option to preview the article before submitting.
-Upon submission, the system shall provide a confirmation message.
+The system shall allow authenticated users to submit articles for publication. The users will be presented with a submission form where they must provide a title, content, summary, and topic for submitting an article. The system shall allow users to specify related stocks for their submitted articles. The users shall have an option to preview the article before submitting. Upon submission, the system shall provide a confirmation message.
 
-### 3.2 Moderation and Admin Control
-The system shall provide access to the administrator to manage and delete user generated articles.
-The system shall display a prompt before deleting for confirmation.
+### 3.2 Article Review Workflow
+The system shall implement a reviewable form with status tracking (Pending, Approved, Rejected). Submitted articles shall remain in "Pending" status until reviewed by an administrator. The system shall only display approved articles in the main news feed.
 
-## 4. News History 
-The system should keep a history of previously accessed articles. 
-The system should allow users to delete their viewing history of the news. 
-The system must show an indicator if a user has ever visited an article. 
-The system shall use the History System of the application, in order to record users' interactions with news stories. 
+### 3.3 Moderation and Admin Control
+The system shall provide an administrative interface for managing user-generated content. Administrators shall be able to approve, reject, or delete user-submitted articles. The system shall display a preview mode for administrators to review articles before making decisions. The system shall provide filtering of user articles by status and topic categories. The system shall display a prompt before deleting for confirmation.
 
-## 5. Performance and Accessibility 
+## 4. User Authentication
+### 4.1 Login and Access Control
+The system shall provide login functionality for users and administrators. The system shall restrict access to article submission features to authenticated users only. The system shall restrict access to administrative features to users with moderator privileges. The system shall provide logout functionality to clear user session data.
 
-### 5.1 Accessibility 
-The system must allow text scaling to improve readability. 
-The system shall adhere to the app's global accessibility standards. 
+## 5. Performance and Accessibility
+### 5.1 Accessibility
+The system must allow text scaling to improve readability. The system shall adhere to the app's global accessibility standards.
 
-### 5.2 Performance 
-The system shall load news article summaries quickly, with full article content loading on demand. 
-The system shall efficiently cache news to minimize redundant requests. 
+### 5.2 Performance
+The system shall load news article summaries quickly, with full article content loading on demand. The system shall efficiently cache news to minimize redundant requests. The system shall provide appropriate error handling and user feedback during loading failures.
+
+## 6. State Management
+### 6.1 Empty States
+The system shall display appropriate empty state indicators when no articles are available. The system shall provide visual feedback during loading operations.
+
+### 6.2 Error Handling
+The system shall display appropriate error messages when operations fail. The system shall gracefully handle network and data access failures.
