@@ -233,22 +233,21 @@ This page allows registered users and moderators to define and create a new stoc
   - price per stock, label. 
   - total value, label.
   - transaction date. label.
-  - transaction author. button displaying the username of the author, which on click will open the profile for the user.
+  - transaction author.
 - Users shall be able to filter transactions based on: 
   - stock name, 
-    - the system will display a text input and a button displaying "Filter", which if clicked will filter the list of transactions based on the value of the input, meaning that the name of the stocks in the list should contain the value found in the text input.
+    - the system will display a text input and a button displaying "Search", which if clicked will filter the list of transactions based on the value of the input, meaning that the name of the stocks in the list should contain the value found in the text input.
   - transaction type,
-    - the system shall display a drop-down menu with the following entries: BUY, SELL. The default value is buy. On click, the list will be list will be filtered such that all the elements of the list have the transaction type the saved value as the value selected in the dropdown. 
+    - the system shall display a drop-down menu with the following entries: BUY, SELL. The default value is all. On click, the list will be list will be filtered such that all the elements of the list have the transaction type the saved value as the value selected in the dropdown. 
   - total value range, 
   - and date range, 
 - The system should validate that: 
   - the transaction type is either BUY or SELL,
   - start date is prior to the end date, 
   - that numeric values are entered for the amount, price per stock and total value. 
-- If no transactions match selected filters, a message shall inform the user that no results were found. 
 - Additionally, the system shall allow users to sort the transaction history by:
   - date (oldest to newest or vice versa), 
-  - stock name (alphabetical), 
+  - stock name (alphabetical ascending or descending), 
   - total value (ascending or descending), 
 - Updates made instantly when the sorting option is selected. 
 - Users shall have the option to export transaction data in CSV and PDF formats, with the ability to specify a date range; 
