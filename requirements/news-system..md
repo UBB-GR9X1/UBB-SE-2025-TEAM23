@@ -16,7 +16,7 @@ The system is written to allow the user to choose and view the full content text
 
 ## 3. User-Generated Content
 ### 3.1 Article Submission
-The system shall allow authenticated users to submit articles for publication. The users will be presented with a submission form where they must provide a title, content, summary, and topic for submitting an article. The system shall allow users to specify related stocks for their submitted articles. The users shall have an option to preview the article before submitting. Upon submission, the system shall provide a confirmation message.
+The system shall allow authenticated users to submit articles for publication. The users will be presented with a submission form where they must provide a title, content, summary, and topic for submitting an article. The system shall allow users to specify related stocks for their submitted articles. If such stock doesn't exist, the system shall provide the user with a confirmation pop-up about the existing stocks. The user can continue without using an existing stock and the system will automatically create that stock. The users shall have an option to preview the article before submitting. Upon submission, the system shall provide a confirmation message.
 
 ### 3.2 Article Review Workflow
 The system shall implement a reviewable form with status tracking (Pending, Approved, Rejected). Submitted articles shall remain in "Pending" status until reviewed by an administrator. The system shall only display approved articles in the main news feed.
