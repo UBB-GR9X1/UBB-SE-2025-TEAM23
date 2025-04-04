@@ -1736,6 +1736,24 @@
 									"subViews": [
 										{
 											"_type": "UMLOperationView",
+											"_id": "AAAAAAGWAo/9ChPbVpk=",
+											"_parent": {
+												"$ref": "AAAAAAGV45fZy0Te22c="
+											},
+											"model": {
+												"$ref": "AAAAAAGWAo/87xPVmW4="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 125,
+											"top": 1013,
+											"width": 495,
+											"height": 13,
+											"text": "+GetCNP(): String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
 											"_id": "AAAAAAGV/GmYt1BAQNY=",
 											"_parent": {
 												"$ref": "AAAAAAGV45fZy0Te22c="
@@ -1746,7 +1764,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 125,
-											"top": 1013,
+											"top": 1028,
 											"width": 495,
 											"height": 13,
 											"text": "+IsGuest(cnp: string): Boolean",
@@ -1764,7 +1782,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 125,
-											"top": 1028,
+											"top": 1043,
 											"width": 495,
 											"height": 13,
 											"text": "+GetUserGemBalance(cnp: String): Int",
@@ -1782,7 +1800,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 125,
-											"top": 1043,
+											"top": 1058,
 											"width": 495,
 											"height": 13,
 											"text": "+UpdateUserGemBalance(cnp: String, newBalance: Int): void",
@@ -1800,7 +1818,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 125,
-											"top": 1058,
+											"top": 1073,
 											"width": 495,
 											"height": 13,
 											"text": "+BuyGems(cnp: String, deal: GemDeal, selectedAccountId: String): Task<String>",
@@ -1818,7 +1836,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 125,
-											"top": 1073,
+											"top": 1088,
 											"width": 495,
 											"height": 13,
 											"text": "+SellGems(cnp: String, gemAmount: Int, selectedAccountId: String): Task<String>",
@@ -1836,7 +1854,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 125,
-											"top": 1088,
+											"top": 1103,
 											"width": 495,
 											"height": 13,
 											"text": "-ProcessBankTransaction(accountId: String, amount: Double): Task<Boolean>",
@@ -1848,7 +1866,7 @@
 									"left": 120,
 									"top": 1008,
 									"width": 505,
-									"height": 98
+									"height": 113
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -2616,6 +2634,24 @@
 									"subViews": [
 										{
 											"_type": "UMLOperationView",
+											"_id": "AAAAAAGWAo9EHhH3MoQ=",
+											"_parent": {
+												"$ref": "AAAAAAGV/Gzl22wpT8E="
+											},
+											"model": {
+												"$ref": "AAAAAAGWAo9D5hHr8HE="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 189,
+											"top": 1269,
+											"width": 375,
+											"height": 13,
+											"text": "+GetCNP(): String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
 											"_id": "AAAAAAGV/G3czJ998Qo=",
 											"_parent": {
 												"$ref": "AAAAAAGV/Gzl22wpT8E="
@@ -2626,7 +2662,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 189,
-											"top": 1269,
+											"top": 1284,
 											"width": 375,
 											"height": 13,
 											"text": "+GetUserGemBalance(cnp: String): Int",
@@ -2644,7 +2680,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 189,
-											"top": 1284,
+											"top": 1299,
 											"width": 375,
 											"height": 13,
 											"text": "+UpdateUserGemBalance(cnp: String, newBalance: Int): void",
@@ -2662,7 +2698,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 189,
-											"top": 1299,
+											"top": 1314,
 											"width": 375,
 											"height": 13,
 											"text": "+IsGuest(cnp: String): Boolean",
@@ -2674,7 +2710,7 @@
 									"left": 184,
 									"top": 1264,
 									"width": 385,
-									"height": 53
+									"height": 68
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -3992,6 +4028,25 @@
 					"operations": [
 						{
 							"_type": "UMLOperation",
+							"_id": "AAAAAAGWAo/87xPVmW4=",
+							"_parent": {
+								"$ref": "AAAAAAGV45fZzUVjEf4="
+							},
+							"name": "GetCNP",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGWApAKDhSRU38=",
+									"_parent": {
+										"$ref": "AAAAAAGWAo/87xPVmW4="
+									},
+									"type": "String",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
 							"_id": "AAAAAAGV/GmYr1A6Drg=",
 							"_parent": {
 								"$ref": "AAAAAAGV45fZzUVjEf4="
@@ -4237,6 +4292,25 @@
 						}
 					],
 					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGWAo9D5hHr8HE=",
+							"_parent": {
+								"$ref": "AAAAAAGV/Gzl22wgJEs="
+							},
+							"name": "GetCNP",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGWAo+XahKn9XE=",
+									"_parent": {
+										"$ref": "AAAAAAGWAo9D5hHr8HE="
+									},
+									"type": "String",
+									"direction": "return"
+								}
+							]
+						},
 						{
 							"_type": "UMLOperation",
 							"_id": "AAAAAAGV/G3cwp9xoxY=",
