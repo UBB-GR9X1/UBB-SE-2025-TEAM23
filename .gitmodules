@@ -1,0 +1,3 @@
+[submodule "StockApp"]
+	path = StockApp
+	url = https://github.com/UBB-GR9X1/StockApp
